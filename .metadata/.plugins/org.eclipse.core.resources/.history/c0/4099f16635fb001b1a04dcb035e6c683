@@ -1,0 +1,22 @@
+
+public class SelectAllProcedure extends DBConnection {
+
+	public SelectAllProcedure() {
+		
+	}
+	public void start() {
+		try {
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			dbClose();
+		}
+	}
+
+	public static void main(String[] args) {
+		new SelectAllProcedure().start();
+
+	}
+
+}
